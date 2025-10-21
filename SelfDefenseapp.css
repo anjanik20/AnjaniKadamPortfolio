@@ -195,6 +195,27 @@ body, html {
     background-color: #d56b4d;
 }
 
+
+.quick-links {
+  background-color: #FFF5E5; /* dark navy background to match your theme */
+  padding: 30px 0;
+}
+
+.quick-links h4 {
+  color: #6F4143;
+  /* font-weight: bold; */
+  /* margin-bottom: 15px; */
+}
+
+
+
+.quick-links a:hover {
+  background-color: #6F4143; /* hover color */
+}
+
+
+
+
 .objective-section{
     background-color:#FFF5E5;
 }

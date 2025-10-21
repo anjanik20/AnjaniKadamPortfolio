@@ -211,6 +211,11 @@ body, html {
     background-color: #d56b4d;
 }
 
+.quick-links {
+  background-color: #E8E2DA; /* dark navy background to match your theme */
+  padding: 30px 0;
+}
+
 .objective-section{
     background-color:#D3DADC ;
 }
@@ -238,7 +243,7 @@ body, html {
 
 
 .image-section{
-    background-color: #E8E2DA;
+    background-color: #D3DADC;
 } 
 
 .problem-goals-section .goals,
@@ -612,7 +617,7 @@ body, html {
 }
 
 .takeaway{
-    background-color: #D3DADC;
+    background-color: #E8E2DA;
 }
 
 .takeaway h3{

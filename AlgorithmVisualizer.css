@@ -191,6 +191,24 @@ body, html {
     background-color: #d56b4d;
 }
 
+.quick-links {
+  background-color: #c1e4ff; /* dark navy background to match your theme */
+  padding: 30px 0;
+}
+
+.quick-links h4 {
+  color: #461961;
+  /* font-weight: bold; */
+  /* margin-bottom: 15px; */
+}
+
+
+
+.quick-links a:hover {
+  background-color: #461961; /* hover color */
+}
+
+
 .summary-section p{
     font-size: 1.1em;;
     line-height: 1.6;
@@ -205,7 +223,7 @@ body, html {
 }
 
 .summary-section{
-    background-color: #c1e4ff;
+    background-color: #B1ABDE;
 }
 
 .summary-section h3{
@@ -279,7 +297,7 @@ body, html {
 
 .research {
     padding: 3rem 1rem;
-    background-color:#B1ABDE;
+    background-color:#c1e4ff;
 }
 .research-header {
     text-align:center;
@@ -386,7 +404,7 @@ body, html {
 
 .personas {
     padding: 50px 0;
-    background-color: #c1e4ff;
+    background-color: #B1ABDE;
 }
 
 .persona-header {
@@ -480,7 +498,7 @@ body, html {
 
 
 .low-fidelity-insights{
-    background-color: #B1ABDE;
+    background-color: #c1e4ff;
 }
 .low-fidelity-insights h3 {
     font-size: 2rem;
@@ -588,7 +606,7 @@ body, html {
 
 .HE {
     padding: 3rem 1rem;
-    background-color:#c1e4ff;
+    background-color:#B1ABDE;
 }
 .HE-header {
     text-align:center;

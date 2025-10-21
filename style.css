@@ -49,12 +49,17 @@ body, html {
 .Home {
     background-color: rgb(17, 33, 45);
     padding: 10% 0;
+    /* display: flex; */
+    /* height: 100vh; */
+    justify-content: center;  /* horizontally center */
+    text-align: center; 
 }
 
 .Home .container {
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+
 }
 
 .Home .content {
@@ -71,7 +76,7 @@ body, html {
 
 /* Animation for appearing text */
 .animate-text span {
-    display: inline-block;
+    display: inline;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
 }
@@ -103,6 +108,7 @@ body, html {
     font-size: 55px; /* Slightly reduced font size for better spacing */
     margin-bottom: 20px;
     color: rgb(244, 208, 63)  }
+    
 
 /* Rest of the styles for other sections */
 .Aboutme{
