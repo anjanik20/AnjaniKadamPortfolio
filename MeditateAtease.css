@@ -46,7 +46,7 @@ body, html {
 
 .book-table-section {
     position: relative;
-    background: url('MeditateBack.png') no-repeat center center; 
+    background: url('Meditate\ Cover\ 5.png') no-repeat center center; 
     background-size: cover;
     height: 600px;
     display: flex;
@@ -211,7 +211,7 @@ body, html {
 }
 
 .objective-section{
-    background-color:#FCE892 ;
+    background-color:#FFB668 ;
 }
 
 .objective-section h3{
@@ -268,7 +268,7 @@ body, html {
 
 .research {
     padding: 3rem 1rem;
-        background-color:#FCE892;
+        background-color:#FFB668;
     }
 .research-header {
         text-align:center;
@@ -342,6 +342,7 @@ body, html {
 
 .personas {
     padding: 50px 0;
+    background-color: #FCE892;
 }
 
 .persona-header {
@@ -368,6 +369,9 @@ body, html {
     color: #000000;
 }
 
+.wireframes{
+    background-color: #FFB668;
+}
 .wireframes h3 {
     font-size: 2rem;
     /* font-weight: bold; */
@@ -388,6 +392,19 @@ body, html {
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
+
+/* .wireframes img {
+    max-width: 100%;             
+    height: auto;
+    border-radius: 10px;          
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.wireframes img:hover {
+    transform: translateY(-5px);  
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); 
+} */
 
 
 @media (max-width: 768px) {
@@ -431,6 +448,7 @@ body, html {
     margin-bottom: 10px; /* Space between list items */
 }
 
+
 .mockups img {
     max-width: 100%;
     border: 2px solid #ecf0f1; /* Light gray border around image */
@@ -438,6 +456,10 @@ body, html {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
+
+.mockups {
+    background-color: #FCE892;  /* Soft cool grey */
+}
 .mockups h3{
     font-size: 2em;
     color: #934113;
@@ -489,12 +511,13 @@ body, html {
 
 .btn-primary {
     margin-right: 10px !important;
-    background-color:#FFDF57  !important;
+    background-color:#ffd82c  !important;
     color:#934113 !important;
-    border: none;
+    /* border: none; */
     font-size:medium !important;
     font-weight: bold;
     border-radius: 16px;
+    border-color: #934113;
 }
 
 /* .btn-primary:hover {
@@ -581,4 +604,234 @@ body, html {
 .takeaway-description{
     color: #000000;
     font-size: 1.1rem;
+}
+
+.problem-goals-section{
+    background-color: #FCE892;
+}
+
+.problem-goals-section .card i {
+    color: #FFB668; /* default purple-ish color */
+    transition: color 0.3s ease;
+}
+
+
+.personas img {
+    max-width: 100%;              /* Ensure responsiveness */
+    height: auto;
+    border-radius: 10px;          /* Rounded corners like restaurant project */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Depth shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect: subtle lift and stronger shadow */
+.personas img:hover {
+    transform: translateY(-5px);  /* Lift image slightly */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+.problem-goals-section .card-title {
+    font-weight: 650;
+    margin-bottom: 10px;
+    color: #934113;
+}
+
+/* Iteration Section Styling */
+.low-fidelity-insights {
+    background-color: #f9fafc;
+}
+
+.iteration-block {
+    background-color: #ffffff;   /* White box */
+    border-radius: 14px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.iteration-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.iteration-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #934113; /* Your accent color */
+    min-width:60px;
+}
+
+.iteration-block p{
+    font-size: 1.1rem;
+}
+
+.iteration-block h5{
+    color: #934113;
+}
+.low-fidelity-insights p{
+    font-size: 1.1rem;
+}
+
+.low-fidelity-insights h3{
+  
+    font-size: 2rem;
+    color: #934113;
+    font-weight: bolder;
+}
+
+.low-fidelity-insights{
+    background-color:#FCE892;
+}
+
+/* Section background */
+/* Mockups Section Background Only */
+#mockups {
+    background-color: #FFB668;   /* Change this color to anything you like */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Make sure image remains untouched */
+#mockups img {
+    background-color: #ffffff;
+    opacity: 1;
+    filter: none;
+}
+
+/* Accessibility Section Background */
+#accessibility {
+    background-color: #FCE892; /* light neutral background */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Section Heading */
+#accessibility h3 {
+    font-size: 2rem;
+    color: #934113;
+    font-weight: bolder;
+}
+
+#accessibility p {
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+/* Cards */
+#accessibility .card {
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+#accessibility .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Card Body */
+#accessibility .card-body {
+    padding: 30px 20px;
+}
+
+#accessibility .card i {
+    color: #FFB668; /* accent color for icons */
+}
+
+/* Card Title */
+#accessibility .card-title {
+    font-size: 1.2rem;
+    font-weight: 650;
+    margin-bottom: 10px;
+    color: #934113;
+}
+
+/* Card Text */
+#accessibility .card-text {
+    font-size: 1rem;
+    color: #222222;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    #accessibility .card-body {
+        padding: 20px 15px;
+    }
+
+    #accessibility h3 {
+        font-size: 1.75rem;
+    }
+}
+
+.high-fidelity-prototype{
+    background-color: #FCE892;
+}
+
+.high-fidelity-prototype img{
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);   
+
+}
+
+/* --- NAVBAR --- */
+.custom-header.navbar {
+    background-color: #000000 !important;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #222; 
+    z-index: 1000;
+}
+
+.navbar-nav { flex-direction: row; }
+.navbar-nav .nav-item { margin: 0 10px; }
+
+.navbar-brand { 
+    font-size: 20px; 
+    font-weight: 800; 
+    letter-spacing: 1px; 
+    color: #ffffff !important; 
+    text-transform: uppercase; 
+}
+
+/* FIX: Prevent name in the corner from changing color or opacity on hover */
+.navbar-brand:hover, 
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: #ffffff !important; 
+    opacity: 1 !important; 
+    text-decoration: none;
+}
+
+/* --- ACCESSIBLE CUSTOM MOBILE TOGGLER --- */
+.navbar-toggler {
+    border: 1px solid rgba(212, 252, 121, 0.5) !important;
+    padding: 0.5rem;
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon {
+    /* Custom Green SVG Hamburger */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 252, 121, 1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(212, 252, 121, 0.8) !important;
+    background-color: rgba(212, 252, 121, 0.1) !important;
+}
+
+.navbar-nav .nav-link { 
+    color: #AAAAAA !important; 
+    font-size: 14px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    transition: 0.3s ease; 
+}
+.navbar-nav .nav-link:hover { color: #ffffff !important; }
+
+.quick-links h4 {
+    font-size: 28px;   /* Change this value as needed */
+    font-weight: 650;  /* Optional: makes it slightly bold */
 }

@@ -44,7 +44,8 @@ body, html {
 
 .book-table-section {
     position: relative;
-    background: url('DataBack.png') no-repeat center center; 
+    /* background: url('DataBack.png') no-repeat center center;  */
+    background: url('Cover\ Visualizer_4.png') no-repeat center center; 
     background-size: cover;
     height: 600px;
     display: flex;
@@ -264,6 +265,9 @@ body, html {
     background-color: #E8E2DA;
 } 
 
+.problem-goals-section{
+    background-color: #c1e4ff;
+}
 
 .problem-goals-section .goals,
 .problem-goals-section .problem {
@@ -297,7 +301,7 @@ body, html {
 
 .research {
     padding: 3rem 1rem;
-    background-color:#c1e4ff;
+    background-color:#B1ABDE;
 }
 .research-header {
     text-align:center;
@@ -322,7 +326,7 @@ body, html {
 }
 /* Questionnaire Section Styling */
 .questionnaire {
-    background-color: #f8f9fa; /* Light background to differentiate section */
+    background-color: #c1e4ff; /* Light background to differentiate section */
     padding: 50px 0;
 }
 
@@ -377,7 +381,7 @@ body, html {
 }
 
 .complex-algorithm-insights {
-    background-color: #f8f9fa; /* Light background for contrast */
+    background-color: #B1ABDE; /* Light background for contrast */
     padding: 40px 0; /* Vertical padding */
     border-radius: 8px; /* Rounded corners */
 }
@@ -404,7 +408,7 @@ body, html {
 
 .personas {
     padding: 50px 0;
-    background-color: #B1ABDE;
+    background-color: #c1e4ff;
 }
 
 .persona-header {
@@ -433,7 +437,7 @@ body, html {
 }
 
 .userflow {
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color:#B1ABDE; /* Light background for contrast */
     padding: 40px 0; /* Vertical padding */
 }
 
@@ -471,6 +475,9 @@ body, html {
     margin-bottom: 2rem;
 }
 
+.wireframes{
+background-color:#c1e4ff;
+}
 .wireframes img {
     max-width: 100%; /* Ensure responsiveness */
     width: 100%; /* Increase the image width to 100% */
@@ -524,6 +531,10 @@ body, html {
 .insight-list li {
     margin-bottom: 10px; /* Space between list items */
 }
+
+.mockups{
+    background-color:#c1e4ff;
+}
 .mockups img {
     max-width: 100%;
     border: 2px solid #ecf0f1; /* Light gray border around image */
@@ -553,6 +564,10 @@ body, html {
     .mockup-description {
         font-size: 1rem;
     }
+}
+
+.high-fidelity-prototype{
+    background-color:#B1ABDE;
 }
 
 .high-fidelity-prototype .col-lg-6:first-child {
@@ -606,7 +621,7 @@ body, html {
 
 .HE {
     padding: 3rem 1rem;
-    background-color:#B1ABDE;
+    background-color:#c1e4ff;
 }
 .HE-header {
     text-align:center;
@@ -677,4 +692,110 @@ body, html {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+.problem-goals-section .card i {
+    color: #B1ABDE; /* default purple-ish color */
+    transition: color 0.3s ease;
+}
+
+.problem-goals-section .card-title {
+    font-weight: 650;
+    margin-bottom: 10px;
+    color: #461961;
+}
+
+.iteration-block {
+    background-color: #ffffff;   /* White box */
+    border-radius: 14px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.iteration-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.iteration-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #461961; /* Your accent color */
+    min-width:60px;
+}
+
+.iteration-block p{
+    font-size: 1.1rem;
+}
+
+.iteration-block h5{
+    color: #461961;
+}
+
+.low-fidelity-insights{
+    background-color: #B1ABDE;
+}
+
+/* --- NAVBAR --- */
+.custom-header.navbar {
+    background-color: #000000 !important;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #222; 
+    z-index: 1000;
+}
+
+.navbar-nav { flex-direction: row; }
+.navbar-nav .nav-item { margin: 0 10px; }
+
+.navbar-brand { 
+    font-size: 20px; 
+    font-weight: 800; 
+    letter-spacing: 1px; 
+    color: #ffffff !important; 
+    text-transform: uppercase; 
+}
+
+/* FIX: Prevent name in the corner from changing color or opacity on hover */
+.navbar-brand:hover, 
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: #ffffff !important; 
+    opacity: 1 !important; 
+    text-decoration: none;
+}
+
+/* --- ACCESSIBLE CUSTOM MOBILE TOGGLER --- */
+.navbar-toggler {
+    border: 1px solid rgba(212, 252, 121, 0.5) !important;
+    padding: 0.5rem;
+    background-color: transparent !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon {
+    /* Custom Green SVG Hamburger */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 252, 121, 1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(212, 252, 121, 0.8) !important;
+    background-color: rgba(212, 252, 121, 0.1) !important;
+}
+
+.navbar-nav .nav-link { 
+    color: #AAAAAA !important; 
+    font-size: 14px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    transition: 0.3s ease; 
+}
+.navbar-nav .nav-link:hover { color: #ffffff !important; }
+
+.quick-links h4 {
+    font-size: 28px;   /* Change this value as needed */
+    font-weight: 650;  /* Optional: makes it slightly bold */
 }

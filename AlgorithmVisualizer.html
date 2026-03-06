@@ -25,13 +25,17 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#resume">Resume</a>
-                        </li>
-                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="index.html#about-me">About Me</a> -->
                             <a class="nav-link" href="index.html#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="index.html#resume">Resume</a> -->
+                             <a class="nav-link" href=" " download>Resume</a>
+                        </li>
+                        <li class="nav-item">
+                             <!-- <a class="nav-link" href="index.html#about-me">About Me</a> -->
+                            <!-- <a class="nav-link" href="index.html#projects">Projects</a> -->
+                             <a class="nav-link" href="aboutme.html">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#contact">Contact</a>
@@ -176,7 +180,7 @@
     
 
 
-    <section id="problem-goals" class="problem-goals-section">
+    <!-- <section id="problem-goals" class="problem-goals-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -201,7 +205,68 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
+
+    <section id="problem-goals" class="problem-goals-section py-5">
+  <div class="container">
+
+    <!-- Heading & Problem Statement -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h3>Problem Statement & Project Goals</h3>
+        <p class="mt-2">
+          How might we design an interactive website that provides real-time visual representations of complex data structures and algorithms to make learning more intuitive, accessible, and engaging for students and professionals?
+        </p>
+      </div>
+    </div>
+
+    <!-- Goals Row (3 in One Line) -->
+    <div class="row g-4 justify-content-center">
+
+      <!-- Goal 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fas fa-project-diagram fa-2x mb-3"></i>
+            <h5 class="card-title">Step-by-Step Visualization</h5>
+            <p class="card-text">
+              Enable users to visualize the step-by-step execution of data structures and algorithms for clearer conceptual understanding.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Goal 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fas fa-sliders-h fa-2x mb-3"></i>
+            <h5 class="card-title">Interactive Learning</h5>
+            <p class="card-text">
+              <!-- Allow users to modify inputs and observe how changes impact algorithm behavior in real time. -->
+               Enable the user to interact with the data structures and algorithms by tweaking the inputs and see how the input changes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Goal 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="fas fa-code-branch fa-2x mb-3"></i>
+            <h5 class="card-title">Algorithm Comparison</h5>
+            <p class="card-text">
+              Provide an engaging learning experience with animations and allow easy comparison between different algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <section id="research" class="research">
         <div class="cotainer">
@@ -354,24 +419,24 @@
                         </div>
                     </div>
         
-                    <div class="row mb-5">
+                    <!-- <div class="row mb-5">
                         <div class="col-12 text-center">
                             <p class="value-proposition-description">
                                Low-Fidelity Prototype
                             </p>
                         </div>
-                    </div>
+                    </div> -->
             
                     <!-- One Image centered in the row -->
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-12 d-flex justify-content-center">
                             <img src="Low fidelity_algo.JPG" alt="Wireframes Image" class="img-fluid">
                         </div>
                     </div>
-                </div>
+                </div> -->
                 </section>
 
-<section id="user-inputs" class="low-fidelity-insights py-5" >
+<!-- <section id="user-inputs" class="low-fidelity-insights py-5" >
     <div class="container">
         <div class="row mb-4">
             <div class="col-12 text-left">
@@ -394,8 +459,95 @@
                     </div>
                 </div>
 </div>
-</section>
+</section> -->
 
+   <section id="user-inputs" class="low-fidelity-insights py-5">
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="row mb-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h3>Design Iterations</h3>
+                <p class="mt-2">
+                     Improvements made after testing the low-fidelity prototype of Algorithm Visualizer.
+                </p>
+            </div>
+        </div>
+
+        <!-- Iteration Blocks -->
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <!-- Block 1 -->
+                <div class="iteration-block mb-4 p-4 rounded">
+                    <div class="d-flex align-items-start">
+                        <div class="iteration-number me-4">01</div>
+                        <div>
+                            <h5>Increased Icon Size</h5>
+                            <p class="mb-1">
+                                Users found the icons on the algorithm cards too small and difficult to notice.
+                            </p>
+                            <p class="mb-0 text-muted">
+                                Increased the size of icons to improve visibility and create a stronger visual hierarchy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Block 2 -->
+                <!-- <div class="iteration-block mb-4 p-4 rounded">
+                    <div class="d-flex align-items-start">
+                        <div class="iteration-number me-4">02</div>
+                        <div>
+                            <h5>Reminder Confirmation</h5>
+                            <p class="mb-1">
+                                Users experienced issues transitioning to the reminder confirmation page.
+                            </p>
+                            <p class="mb-0 text-muted">
+                                Fixed navigation so users receive a clear confirmation after setting reminders.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Block 3 -->
+                <!-- <div class="iteration-block mb-4 p-4 rounded">
+                    <div class="d-flex align-items-start">
+                        <div class="iteration-number me-4">03</div>
+                        <div>
+                            <h5>Visual Guidance</h5>
+                            <p class="mb-1">
+                                Users wanted better understanding of meditation techniques.
+                            </p>
+                            <p class="mb-0 text-muted">
+                                Added images and visual cues for each meditation technique to improve comprehension and engagement.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Block 4 -->
+                <!-- <div class="iteration-block p-4 rounded">
+                    <div class="d-flex align-items-start">
+                        <div class="iteration-number me-4">04</div>
+                        <div>
+                            <h5>AR/VR Visualization Idea</h5>
+                            <p class="mb-1">
+                                Users wanted a more immersive meditation experience.
+                            </p>
+                            <p class="mb-0 text-muted">
+                                Proposed “Visualize” button to allow AR/VR sessions, transporting users into relaxing environments for deeper meditation.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 <section id="mockups" class="mockups py-5" >
