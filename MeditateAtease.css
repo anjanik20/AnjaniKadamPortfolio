@@ -616,19 +616,16 @@ body, html {
 }
 
 
-.personas img {
-    max-width: 100%;              /* Ensure responsiveness */
+/* .personas img {
+    max-width: 100%;              
     height: auto;
-    border-radius: 10px;          /* Rounded corners like restaurant project */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Depth shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
+    border-radius: 10px;          
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+} */
 
 /* Hover effect: subtle lift and stronger shadow */
-.personas img:hover {
-    transform: translateY(-5px);  /* Lift image slightly */
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
-}
+
 .problem-goals-section .card-title {
     font-weight: 650;
     margin-bottom: 10px;
@@ -834,4 +831,46 @@ body, html {
 .quick-links h4 {
     font-size: 28px;   /* Change this value as needed */
     font-weight: 650;  /* Optional: makes it slightly bold */
+}
+
+
+.left-img {
+    height: auto;        /* natural height */
+    max-height: 350px;   /* optional control */
+    object-fit: cover;
+}
+
+.fixed-card {
+    height: 500px;
+    overflow: hidden;
+}
+
+.fixed-img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.components-card {
+    padding: 8px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.components-card img {
+    width: 100%;
+    display: block;}
+
+.color-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.section-gap {
+    margin-bottom: 70px;
 }

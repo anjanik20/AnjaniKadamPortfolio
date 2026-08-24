@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Anjani Umich\\Anjani_Portfolio\\AnjaniPortfolio_1309\\index.html"
+            "file": "/Users/Shared/Files From d.localized/Anjani Umich/Anjani_Portfolio/AnjaniPortfolio_1309/index.html"
         }
     ]
 }
